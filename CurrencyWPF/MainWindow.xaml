@@ -1,0 +1,15 @@
+﻿<Window x:Class="CurrencyMidterm.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CurrencyMidterm"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="236.8" Width="300">
+    <Grid>
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Height="122" Width="230">
+            <Button x:Name="MakeChangeButton" Content="Make Change" Margin="0,0,-0.4,10" FontSize="22" Click="MakeChangeButton_Click" Height="51" />
+            <Button x:Name="RepoButton" Content="Save And Load Repo" Margin="0,0,-0.4,0" FontSize="20" Click="RepoButton_Click" Height="57"/>
+        </StackPanel>
+    </Grid>
+</Window>
